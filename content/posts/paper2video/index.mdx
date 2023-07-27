@@ -1,0 +1,28 @@
+---
+title: Paper2Video
+date: 2023-07-27
+tags:
+  - Learning
+  - Projects
+---
+
+import { YouTubeEmbed } from '../junecompete/youtube';
+
+# Project Overview
+
+Paper2Video takes in a paper converts it to an educational video that explains it, using ChatGPT and Dall-E.
+
+The way it works is it reads the chunks of the paper (due to context limits) and generates a script for the video, including prerequisite concepts.
+Then each line gets converted to a description of an image, and each description gets some modifiers like “oil painting of” and “ultra HD”.
+That is then sent to DALL-E, and the script text is sent to a free text to speech api (which is why it’s so bad). 
+
+<a href="https://github.com/JonathanGrant/PodcastGPT/blob/main/Paper2Video.ipynb" target="_blank">You can read/copy the code here.</a>
+
+# Examples
+
+I recommend watching at least 1.5x speed due to the voices.
+
+<YouTubeEmbed videoId="LdY_SOUmz6M" />
+<YouTubeEmbed videoId="MwEheF-u3pU" />
+<YouTubeEmbed videoId="j_2F8COWFrI" />
+<YouTubeEmbed videoId="-sAzEIOYiVM" />
